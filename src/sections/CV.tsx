@@ -62,7 +62,7 @@ export default function CV() {
         </div>
 
         {/* Right — decorative */}
-        <div className="hidden md:flex justify-center items-center">
+        <div className="hidden md:flex justify-center items-center gap-6">
           <div className="relative w-64 h-80 border border-fg/5 bg-bg flex flex-col items-center justify-center gap-6 group hover:border-accent/20 transition-all duration-500">
             <div className="absolute top-0 left-0 right-0 h-[2px]"
               style={{ background: 'linear-gradient(90deg,#ff4d00,#00e5ff)' }} />
@@ -74,6 +74,73 @@ export default function CV() {
             <div className="font-mono text-[0.6rem] tracking-[0.1em] uppercase text-fg/20">React · Next.js · TypeScript</div>
             <div className="absolute bottom-4 right-4 font-mono text-[0.55rem] text-fg/15 tracking-wider">PDF</div>
           </div>
+          {/* <div className="bg-bg dark:bg-bg overflow-hidden shadow-2xl border border-slate-800 hover:shadow-primary/20 hover:border-accent/20 transition-all duration-500">
+                <div className="flex items-center gap-2 px-4 py-3 bg-slate-800 border-b border-slate-700">
+                  <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                  <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
+                  <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                  <span className="text-slate-400 text-sm mr-4 font-mono"
+                    >aelhariry.js</span>
+                </div>
+                <div
+                  className="p-6 font-mono text-sm md:text-base leading-relaxed overflow-x-auto text-slate-200"
+                  dir="ltr"
+                >
+                  <p className="text-slate-500">// من أنا باختصار</p>
+                  <p className="mt-3">
+                    <span className="text-purple-400">const</span>
+                    <span className="text-blue-400 mx-2">ahmed</span>
+                     = [ </p>
+                  <p className="ml-4">
+                    <span className="text-green-400">name</span>:
+                    <span className="text-yellow-400">"احمد عاطف"</span>,
+                  </p>
+                  <p className="ml-4">
+                    <span className="text-green-400">title</span>:
+                    <span className="text-yellow-400">"Frontend Developer"</span>,
+                  </p>
+                  <p className="ml-4">
+                    <span className="text-green-400">experience</span>:
+                    <span className="text-orange-400">1.5</span> +
+                    <span className="text-yellow-400">" years"</span>,
+                  </p>
+                  <p className="ml-4">
+                    <span className="text-green-400">location</span>:
+                    <span className="text-yellow-400">"Giza, Egypt 🇪🇬"</span>,
+                  </p>
+                  <p className="ml-4">
+                    <span className="text-green-400">skills</span>: [
+                  </p>
+                  <p className="ml-8">
+                    <span className="text-yellow-400">"React"</span>,
+                    <span className="text-yellow-400">"Next.js"</span>,
+                  </p>
+                  <p className="ml-8">
+                    <span className="text-yellow-400">"TypeScript"</span>,
+                    <span className="text-yellow-400">"Tailwind"</span>
+                  </p>
+                  <p className="ml-4">],</p>
+                  <p className="ml-4">
+                    <span className="text-green-400">passion</span>:
+                    <span className="text-yellow-400"
+                      >"Creating pixel-perfect UIs"</span
+                    >,
+                  </p>
+                  <p className="ml-4">
+                    <span className="text-green-400">available</span>:
+                    <span className="text-blue-400">true</span>,
+                  </p>
+                  <p className="ml-4">
+                    <span className="text-green-400">hireable</span>:
+                    <span className="text-blue-400">true</span>
+                  </p>
+                  <p>];</p>
+                  <p className="mt-4">
+                    <span className="text-purple-400">export default</span>
+                    <span className="text-blue-400 ms-2">aelhariry</span>;
+                  </p>
+                </div>
+          </div> */}
         </div>
       </div>
     </section>

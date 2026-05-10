@@ -13,12 +13,19 @@ export default function Contact() {
 
       <a
         href="mailto:a7medelhriry1999@gmail.com"
-        className="reveal inline-block font-syne font-extrabold text-accent hover:scale-105 transition-transform duration-300 relative group mb-10"
+        className="reveal inline-block font-syne font-extrabold text-accent hover:scale-105 transition-transform duration-300 relative group mb-5"
         style={{ fontSize: 'clamp(1.2rem,3vw,2.2rem)' }}
       >
         a7medelhriry1999@gmail.com
         <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-accent origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-400" />
       </a>
+
+      <p 
+        // style={{ fontSize: 'clamp(1.2rem,3vw,2.2rem)' }}
+        className="reveal font-syne font-extrabold text-[#1b1c27] text-2xl hover:scale-105 hover:text-accent transition-transform duration-300 relative group mb-10"
+      >
+        +20 127 374 9157
+      </p>
 
 
       <div className="reveal flex gap-4 justify-center mt-4">

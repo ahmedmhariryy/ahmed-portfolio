@@ -28,7 +28,7 @@ export default function Hero() {
           <span
             className="block glitch text-accent opacity-0 animate-fade-up relative"
             data-text="Elhariry"
-            style={{ animationDelay: '0.7s', animationFillMode: 'forwards' }}
+            style={{ animationDelay: '0.4s', animationFillMode: 'forwards' }}
           >
             Elhariry
             <span className="absolute left-0 bottom-[-6px] h-[3px] w-full bg-accent origin-left scale-x-0 transition-transform duration-700 delay-[1.5s]" style={{ transform: 'scaleX(1)' }} />

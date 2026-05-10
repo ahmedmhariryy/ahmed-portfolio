@@ -21,7 +21,7 @@ export default function About() {
           <div className="reveal grid grid-cols-2 gap-4 mt-6">
             {[
               { num: '1.5+', label: 'Years Exp.' },
-              { num: '11++', label: 'GitHub Repos' },
+              { num: '14++', label: 'GitHub Repos' },
               { num: '∞', label: 'Lines of CSS' },
               { num: '100%', label: 'Passion' },
             ].map(s => (

@@ -1,4 +1,5 @@
 'use client'
+//==========> Use AI ( Mouse animate about app <mousemove> ) <============
 import { useEffect, useRef } from 'react'
 
 export default function Cursor() {

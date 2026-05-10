@@ -33,7 +33,7 @@ const skillCards = [
   },
 ]
 
-const tags = ['React.js','Next.js','JavaScript ES6+','TypeScript','Tailwind CSS','Styled Components','CSS / SCSS','Framer Motion','REST APIs','Git & GitHub','Redux / Zustand','Responsive Design','HTML5','CSS3','Vercel','Shadcn/ui','Zod','React Hook Form','Axios']
+const tags = ['React.js','Next.js','JavaScript ES6+','TypeScript','Bootstrap','Tailwind CSS','React Router','Styled Components','CSS / SCSS','Framer Motion','REST APIs','Heroui','Git & GitHub','Redux / Zustand','Responsive Design','Next Auth','JWT','HTML5','CSS3','Vercel','Shadcn/ui','Zod','React Hook Form','Axios','Formik']
 
 export default function Skills() {
   return (

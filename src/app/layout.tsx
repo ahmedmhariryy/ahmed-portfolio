@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Ahmed Atef Elhariry — Frontend Developer',
+  title: 'Ahmed Elhariry — Frontend Developer',
   description: 'Frontend Developer specializing in React & Next.js',
 }
 
