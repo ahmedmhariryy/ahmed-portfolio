@@ -37,7 +37,7 @@ export default function Hero() {
 
         <p className="font-mono text-sm md:text-base max-w-md mt-8 leading-loose text-fg/55 opacity-0 animate-fade-up" style={{ animationDelay: '0.9s', animationFillMode: 'forwards' }}>
           Building <span className="text-accent3 font-bold">fast, beautiful</span> web experiences.<br />
-          1.5 years of crafting UIs that users love.
+          2.6 years of crafting UIs that users love.
         </p>
 
         <div className="flex flex-wrap gap-4 mt-10 opacity-0 animate-fade-up" style={{ animationDelay: '1.1s', animationFillMode: 'forwards' }}>

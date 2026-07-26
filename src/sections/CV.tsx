@@ -3,7 +3,7 @@ import { FileDown, Mail, Phone, MapPin } from 'lucide-react'
 const highlights = [
   { label: 'Role', value: 'Frontend Developer' },
   { label: 'Stack', value: 'React & Next.js' },
-  { label: 'Location', value: 'Giza, Egypt' },
+  { label: 'Location', value: 'Cario, Egypt' },
   { label: 'Availability', value: 'Open to Work' },
 ]
 
@@ -39,7 +39,7 @@ export default function CV() {
           </div>
 
           <a
-            href="/ahmedelhariry___frontend_react_.pdf"
+            href="/ahmedelhariry - frontend react.nextjs.pdf"
             download
             data-hover
             className="btn-clip inline-flex items-center gap-3 bg-accent text-white font-mono text-xs tracking-[0.15em] uppercase px-8 py-4 hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(255,77,0,0.35)] transition-all duration-200"
@@ -56,7 +56,7 @@ export default function CV() {
               <Phone size={12} /> +20 127 374 9157
             </a>
             <span className="flex items-center gap-3 font-mono text-xs text-fg/35">
-              <MapPin size={12} /> Giza, Egypt
+              <MapPin size={12} /> Cairo, Egypt
             </span>
           </div>
         </div>
