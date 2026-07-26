@@ -1,4 +1,9 @@
 import { Github, ExternalLink } from 'lucide-react'
+import { FaYoutube } from "react-icons/fa";
+import { FaSpotify } from "react-icons/fa6";
+import { GiFilmProjector } from "react-icons/gi";
+import { MdNoFood } from "react-icons/md";
+import { IoMdPulse } from "react-icons/io";
 
 const projects = [
   {
@@ -17,7 +22,7 @@ const projects = [
     tags: ['React.Js', 'JavaScript' ,'TMDB API', 'Tailwind'],
     github: 'https://github.com/ahmedmhariryy/MovieBase.git',
     live: 'https://movie-base-mocha.vercel.app/',
-    emoji: '🎥',
+    emoji: <GiFilmProjector className='text-indigo-300'/>,
   },
   {
     num: '03',
@@ -34,7 +39,7 @@ const projects = [
     desc: 'Social media web app with user authentication, profile management, and a full posts & comments system — create, read, update, delete.',
     tags: ['React.Js', 'JavaScript' ,'Auth', 'REST API'],
     github: 'https://github.com/ahmedmhariryy/RoutePosts.git',
-    live: 'https://route-posts.routemisr.com',
+    live: 'https://route-posts-zeta.vercel.app/auth',
     emoji: '💬',
   },
   {
@@ -71,7 +76,61 @@ const projects = [
     tags: ['React.Js', 'JavaScript', 'Tailwind' , 'API'],
     github: 'https://github.com/ahmedmhariryy/AURUM.git',
     live: 'https://aurum-iota-seven.vercel.app/',
-    emoji: '✨',
+    emoji: '🛍️',
+  },
+  {
+    num: '09',
+    name: 'GreenCart',
+    desc: 'A polished grocery e-commerce experience designed with responsive layouts, smooth interactions, efficient product discovery, and a scalable, modern user interface.',
+    tags: ['React.Js', 'JavaScript', 'Tailwind' , 'API','Responsive'],
+    github: 'https://github.com/ahmedmhariryy/GreenCart.git',
+    live: 'https://green-cart-nu-self.vercel.app/',
+    emoji: '🍉',
+  },
+  {
+    num: '10',
+    name: 'JobPortal',
+    desc: 'A modern job portal web application that enables users to browse job listings, view detailed job descriptions, and apply for positions through a clean, responsive, and user-friendly interface.',
+    tags: ['React.Js', 'JavaScript', 'Tailwind' , 'API'],
+    github: 'https://github.com/ahmedmhariryy/JobPortal.git',
+    live: 'https://job-portal-one-jet.vercel.app/',
+    emoji: '👔',
+  },
+  {
+    num: '11',
+    name: 'Nutra Food',
+    desc: 'A modern and responsive Organic Food E-commerce website featuring product categories, featured products, promotional offers, and a clean, user-friendly shopping experience.',
+    tags: ['React.Js', 'JavaScript', 'Tailwind' , 'API','Responsive'],
+    github: 'https://github.com/ahmedmhariryy/Nutra-Food.git',
+    live: 'https://nutra-food.vercel.app/',
+    emoji: '🥗',
+  },
+  {
+    num: '12',
+    name: 'CityPulse',
+    desc: 'A smart civic platform that enables citizens to report infrastructure issues, monitor request progress, and help local authorities respond efficiently through real-time data and interactive dashboards.',
+    tags: ['React.Js', 'JavaScript', 'Tailwind' , 'API'],
+    github: 'https://github.com/ahmedmhariryy/CityPulse.git',
+    live: 'https://city-pulse-five.vercel.app/',
+    emoji: <IoMdPulse />,
+  },
+  {
+    num: '13',
+    name: 'YouTube',
+    desc: 'A premium YouTube-inspired platform delivering seamless video discovery, responsive layouts, and an intuitive viewing experience with a polished modern interface.',
+    tags: ['React.Js', 'JavaScript', 'Tailwind' , 'API','Responsive'],
+    github: 'https://github.com/ahmedmhariryy/youtube-app.git',
+    live: 'https://youtube-app-three-delta.vercel.app/',
+    emoji: <FaYoutube className='text-red-600'/>,
+  },
+  {
+    num: '14',
+    name: 'Spotify Clone',
+    desc: 'Spotify-inspired music streaming experience with responsive layouts, smooth interactions, and a clean, modern user interface.',
+    tags: ['React.Js', 'JavaScript', 'Tailwind' , 'API','Responsive'],
+    github: 'https://github.com/ahmedmhariryy/spotify-clone.git',
+    live: 'https://spotify-clone-eta-jet.vercel.app/',
+    emoji: <FaSpotify className='text-green-600'/>,
   },
 ]
 
